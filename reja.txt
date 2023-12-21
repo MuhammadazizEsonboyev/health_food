@@ -1,0 +1,5 @@
+1.Yangi papka ochish va github ulab qo'yish
+2.Figma saytini ichidan o'zimizga kerak bo'ladigan rasmlarni yaxshi ko'rinishda yuklab olish (jpg yoki png)
+3.Bootstrap kutubxonasini ulaysiz
+4.Google font ulash
+5.Reja asosida loyihani boshlash
