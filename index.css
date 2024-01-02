@@ -10,6 +10,11 @@
 /* font-family: 'Roboto', sans-serif; */
 /* font-family: 'Philosopher', sans-serif; */
 
+.container {
+    width: 1120px;
+    margin: auto;
+}
+
 
 nav {
     width: 1120px;
@@ -84,4 +89,202 @@ nav {
 .food {
     width: 551px;
     height: 470px;
+}
+
+
+.info_box {
+    text-align: center;
+    padding-top: 115px;
+    padding-bottom: 44px;
+}
+
+.features {
+    color: #DC780B;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 3.2px;
+    text-transform: uppercase;
+}
+
+.food_name {
+    color: #150C01;
+    font-family: Philosopher;
+    font-size: 31.25px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.section_blog {
+    width: 1120px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.card {
+    width: 300px;
+    text-align: center;
+}
+
+.section_text {
+    color: #150C01;
+    font-family: Philosopher;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    padding-top: 23px;
+    /* 96% */
+}
+
+
+.section_paragraf {
+    color: #150C01;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    /* 150% */
+    opacity: 0.7;
+    padding-top: 15px;
+}
+
+.image_bg {
+    background: #c3ce97;
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.image-girl {
+    width: 100%;
+    border-radius: 35px;
+}
+
+.right-section {
+    width: 475px;
+}
+
+.about-info {
+    color: #DC780B;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 3.2px;
+    text-transform: uppercase;
+}
+
+
+.food-name {
+    color: #150C01;
+    font-family: Philosopher;
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 40.625px;
+    margin-bottom: 30px;
+    /* 130% */
+}
+
+.text-section-paragraf {
+    color: #150C01;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 0.7;
+    margin-bottom: 30px;
+}
+
+.top-texts {
+    text-align: center;
+    width: 748px;
+    margin: auto;
+}
+
+.card-boxes {
+    width: 360px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    background: #FFF;
+    border-radius: 70px 10px 0px 0px;
+    transform: scale(.9);
+    transition: .5s;
+}
+
+.chicken-image {
+    border-radius: 70px 10px 70px 0px;
+    width: 100%;
+}
+
+.card-boxes:hover{
+    transform: scale(1);
+    transition: .5s;
+}
+
+.bottom-card-info {
+    padding: 20px;
+}
+
+.price-name {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    color: #150C01;
+    font-family: Philosopher;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.info-card-text {
+    color: #150C01;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 20px;
+}
+
+.button-plus-star {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plus {
+    padding: 3px 10px;
+    font-size: 25px;
+    background: #DC780B;
+    color: #ffff;
+    border: none;
+    border-radius: 6px;
+}
+
+
+.fa-solid {
+    color: #DC780B;
+}
+
+.fa-solid:nth-child(5) {
+    color: #EDEDED;
+}
+
+.flex-boxes{
+    display: flex;
+    justify-content: space-between;
 }
